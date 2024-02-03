@@ -1,20 +1,31 @@
 //copy menu for mobile
 function copyMenu() {
     //copy inside .dpt-cat to .departments
-    const dptCategory = document.querySelector('.dpt-cat')
-    const dptPlace = document.querySelector('.departments')
+    var dptCategory = document.querySelector('.dpt-cat')
+    var dptPlace = document.querySelector('.departments')
     dptPlace.innerHTML = dptCategory.innerHTML
 
-    const mainNav = document.querySelector('.header-nav nav')
-    const navPlace = document.querySelector('.off-canvas nav')
+    var mainNav = document.querySelector('.header-nav nav')
+    var navPlace = document.querySelector('.off-canvas nav')
     navPlace.innerHTML = mainNav.innerHTML
 
-    const topNav = document.querySelector('.header-top .wrapper')
-    const topPlace = document.querySelector('.off-canvas .thetop-nav')
+    var topNav = document.querySelector('.header-top .wrapper')
+    var topPlace = document.querySelector('.off-canvas .thetop-nav')
     topPlace.innerHTML = topNav.innerHTML
 }
 
 copyMenu()
+
+//show mobile menu
+const menuButton = document.querySelector('.trigger')
+const closeButton = document.querySelector('.t-close')
+const addclass = document.querySelector('.site')
+menuButton.addEventListener('click', function() {
+    addclass.classList.toggle('showmenu')
+})
+closeButton.addEventListener('click', function() {
+    addclass.classList.remove('showmenu')
+})
 
 //show sub menu on mobile
 const submenu = document.querySelectorAll('.has-child .icon-small')
@@ -26,3 +37,4 @@ function toggle(e) {
     if (this.closest('.has-child').classList != "expand");
     this.closest('.has-child').classList.toggle('expand')
 }
+//gunanya closest()?
