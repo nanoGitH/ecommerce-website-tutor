@@ -341,7 +341,7 @@ nav .fly-item {
 }
 .mega .flexcol {
     flex: 1;
-    min-width: 100px;
+    min-width: 180px;
     padding-right: 2.5em;
     margin-bottom: 1.5em;
     z-index: 1;
@@ -364,7 +364,7 @@ nav .fly-item {
     background-color: var(--primary-color);
     border-radius: 7px 7px 0 0;
     color: var(--white-color);
-    margin-bottom: -2.15em;
+    margin-bottom: -2.45em;
 }
 .dpt-cat .dpt-head .mini-text {
     color: var(--light-bg-color);
