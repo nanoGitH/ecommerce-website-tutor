@@ -1,8 +1,223 @@
 {
-    "banner": {
-        "banner1" : {
-            "nama" : "banner1.jpg",
-            ""
-        }
+    "products": {
+        "apparel": [
+            {
+                "fileName": "apparel1.jpg",
+                "productName": "Under Armour Men Tech",
+                "rating": "1,955",
+                "stock": 7,
+                "price": "$75.50",
+                "freeShipping": true,
+                "sold": "2584"
+            },
+            {
+                "fileName": "apparel2.jpg",
+                "productName": "Women Lightweight Knit Hoodie Sweater Pullover",
+                "rating": "1,955",
+                "stock": "",
+                "price": "$45.50",
+                "freeShipping": true,
+                "sold": ""
+            },
+            {
+                "fileName": "apparel3.jpg",
+                "productName": "Black Women's Coat Dress",
+                "rating": "2,548",
+                "stock": "",
+                "price": "$189.98",
+                "freeShipping": true,
+                "sold": "2975"
+            },
+            {
+                "fileName": "apparel4.jpg",
+                "productName": "Happy Sailed Women Summer Boho Floral",
+                "rating": "3,107",
+                "stock": 107,
+                "price": "$189.98",
+                "freeShipping": false,
+                "sold": "3,459"
+            },
+            {
+                "fileName": "apparel5.jpg",
+                "productName": "apparel5",
+                "rating": "2,15",
+                "stock": "",
+                "price": "",
+                "freeShipping": false,
+                "sold": ""
+            }
+
+        ],
+        "electronics": [
+            {
+                "fileName": "electronics1.jpg",
+                "productName": "electronics1",
+                "rating": "2,15",
+                "stock": "",
+                "price": "",
+                "freeShipping": false,
+                "sold": ""
+            },
+            {
+                "fileName": "electronics2.jpg",
+                "productName": "electronics2.jpg",
+                "rating": "2,15",
+                "stock": "",
+                "price": "",
+                "freeShipping": false,
+                "sold": ""
+            },
+            {
+                "fileName": "electronics3.jpg",
+                "productName": "electronics3",
+                "rating": "2,15",
+                "stock": "",
+                "price": "",
+                "freeShipping": false,
+                "sold": ""
+            },
+            {
+                "fileName": "electronics4.jpg",
+                "productName": "electronics4",
+                "rating": "2,15",
+                "stock": "",
+                "price": "",
+                "freeShipping": false,
+                "sold": ""
+            },
+            {
+                "fileName": "electronics5.jpg",
+                "productName": "electronics5",
+                "rating": "2,15",
+                "stock": "",
+                "price": "",
+                "freeShipping": false,
+                "sold": ""
+            }
+
+        ],
+        "home": [
+            {
+                "fileName": "home1.jpg",
+                "productName": "home1",
+                "rating": "2,15",
+                "stock": "",
+                "price": "",
+                "freeShipping": false,
+                "sold": ""
+            },
+            {
+                "fileName": "home2.jpg",
+                "productName": "Dimmable Ceiling Light Modern",
+                "rating": "543",
+                "stock": "",
+                "price": "$499",
+                "freeShipping": false,
+                "sold": "955"
+            },
+            {
+                "fileName": "home3.jpg",
+                "productName": "home3",
+                "rating": "2,15",
+                "stock": "",
+                "price": "",
+                "freeShipping": false,
+                "sold": ""
+            },
+            {
+                "fileName": "home4.jpg",
+                "productName": "home4",
+                "rating": "2,15",
+                "stock": "",
+                "price": "",
+                "freeShipping": false,
+                "sold": ""
+            },
+            {
+                "fileName": "home5.jpg",
+                "productName": "home5",
+                "rating": "2,15",
+                "stock": "",
+                "price": "",
+                "freeShipping": false,
+                "sold": ""
+            }
+
+        ],
+        "shoes": [
+            {
+                "fileName": "shoes1-1.jpg",
+                "productName": "Men Slip On Shoes Casual with Arch Support Insoles",
+                "rating": "2,548",
+                "stock": "",
+                "price": "$189.98",
+                "freeShipping": true,
+                "sold": ""
+            },
+            {
+                "fileName": "shoes1-2.jpg",
+                "productName": "shoes1-2.jpg",
+                "rating": "2,15",
+                "stock": "",
+                "price": "",
+                "freeShipping": false,
+                "sold": ""
+            },
+            {
+                "fileName": "shoes1-3.jpg",
+                "productName": "shoes1-3",
+                "rating": "2,15",
+                "stock": "",
+                "price": "",
+                "freeShipping": false,
+                "sold": ""
+            },
+            {
+                "fileName": "shoes1.jpg",
+                "productName": "shoes1",
+                "rating": "2,15",
+                "stock": "",
+                "price": "",
+                "freeShipping": false,
+                "sold": ""
+            },
+            {
+                "fileName": "shoes2.jpg",
+                "productName": "shoes2",
+                "rating": "2,15",
+                "stock": "",
+                "price": "",
+                "freeShipping": false,
+                "sold": ""
+            },
+            {
+                "fileName": "shoes3.jpg",
+                "productName": "shoes3",
+                "rating": "2,15",
+                "stock": "",
+                "price": "",
+                "freeShipping": false,
+                "sold": ""
+            },
+            {
+                "fileName": "shoes4.jpg",
+                "productName": "shoes4",
+                "rating": "2,15",
+                "stock": "",
+                "price": "",
+                "freeShipping": false,
+                "sold": ""
+            },
+            {
+                "fileName": "shoes5.jpg",
+                "productName": "shoes5",
+                "rating": "2,15",
+                "stock": "",
+                "price": "",
+                "freeShipping": false,
+                "sold": ""
+            }
+
+        ]
     }
 }
